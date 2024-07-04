@@ -46,6 +46,7 @@ document.querySelector("#mess").addEventListener("change", function () { //Hiệ
         document.querySelector(".content").classList.remove("actived")
         document.querySelector(".img1").setAttribute("style", "opacity: 0; transition: .5s")
         document.querySelector(".mainContent").innerHTML = "";
+        // document.querySelector(".designBox").style.display = "none";
     }
 })
 
